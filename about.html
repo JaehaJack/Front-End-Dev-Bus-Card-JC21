@@ -12,12 +12,31 @@
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
       crossorigin="anonymous"
     ></script>
-    <meta name="description" content="A brief intro about my quality as a front end developer.">
+    <meta
+      name="description"
+      content="A brief intro about my quality as a front end developer."
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>About [Your name]</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Festive&family=Fuggles&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Festive&family=Fuggles&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/50ad5ce11e.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -36,10 +55,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link" href="index.html"
-              >Home</a
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="about.html"
+              >About Me</a
             >
-            <a class="nav-link active" aria-current="page" href="about.html">About Me</a>
             <a class="nav-link" href="about.html#contact">Contact Me</a>
           </div>
         </div>
@@ -60,7 +79,9 @@
       </p>
     </div>
     <div class="container">
-      <div class="projects row d-flex justify-content-space-evenly flex-1 mx-auto">
+      <div
+        class="projects row d-flex justify-content-space-evenly flex-1 mx-auto"
+      >
         <div class="col-sm-4">
           <img
             src="images/weather.PNG"
@@ -86,12 +107,20 @@
     </div>
     <div id="contact">
       <h2>📮 Contact me</h2>
-      <a
+      <span>
+        <a
         href="mailto:jazmic7@gmail.com"
-        class="email-link text-center mb-5 p-2" title="contact"
+        class="email-link text-center mb-5 p-2"
+        title="contact"
       >
-        Message person now? Yes.
+        For any questions, please e-mail me!
       </a>
-    </div>
+        <p><strong>Or we can connect through...</strong></p>
+      <ul class="contact-icons d-flex justify-content-center">
+        <li><i class="contactLink fab fa-linkedin"></i></li>
+        <li><i class="contactLink fab fa-instagram-square"></i></li>
+      </ul>
+      </span>
+      
   </body>
 </html>
